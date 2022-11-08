@@ -30,10 +30,8 @@ const App = () => {
         )
       })
       console.log("vowelsArray:", vowelsArray)
-
       // ACTION ITEM: your Pig Latin logic goes here!
       /*
-Implement useState
 Input: apple
 
 if eachWord is vowels
@@ -41,11 +39,17 @@ Oupt: applway
 */
     // eachWord += 'way'
     if (eachWord[0] === vowelsArray[0]) {
-      return eachWord += 'way'
-    }
-   
-
+      return eachWord.concat('way')
+    }else if
       // ACTION ITEM: this return will be the output of your Pig Latin'd code
+// Input: qu, sq / 2
+// (i.e. queen squeal)
+// Move qu and squ to end of string .oncat('way')..
+ (eachWord === 'qu' && 'squ') {
+  return eachWord.concat('way')
+ }
+// if eachWord is vowels
+// Oupt: pig latin'd (i.e. eenquway, ealsquway) 
       return eachWord
     })
 
@@ -98,7 +102,7 @@ Oupt: applway
         </div>
         <p>{inputTranslated}</p>
       </div>
-      <footer>&copy; 2022 | Coded by: Your Names Here!</footer>
+      <footer>&copy; 2022 | Coded by: Cesar and Immanuel</footer>
     </div>
   )
 }
